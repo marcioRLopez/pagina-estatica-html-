@@ -1,0 +1,12 @@
+@font-face {
+
+    font-family: perfect dos vga;
+    
+    src:url(fuentes/perfect\ dos\ vga\ 437.ttf);
+    
+    }
+
+    p {
+        font-family: perfect dos vga;
+        color:#04ac04;
+    }
