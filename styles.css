@@ -5,8 +5,45 @@
     src:url(fuentes/perfect\ dos\ vga\ 437.ttf);
     
     }
+    body {
+        background-color: #040404;
 
-    p {
+    }
+    nav {
+        background-color: #040404;
+    }
+
+    #portfolio {
         font-family: perfect dos vga;
         color:#04ac04;
+        font-size: 34px;
+    }
+
+    h1, h3{
+        font-family: perfect dos vga;
+        color:#04ac04;
+    }
+    img {
+        background-size: 100%;
+        position: relative;
+        
+    }
+     
+    #perfil {
+        border-style: solid;
+        border-radius: 100%;
+    }
+    #divisor1 {
+        background-color: #04ac04;
+        
+
+    }
+
+    #divisor2 {
+        border-style: solid;
+        border-color: #04ac04;
+        font-family: perfect dos vga;
+        color:#04ac04;
+      
+
     }
