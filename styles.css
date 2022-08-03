@@ -50,6 +50,7 @@
     }
     #divisor2:hover{
         background-color: #FFFFFF;
+        cursor: progress;
     }
     p{
         font-family: perfect dos vga;
