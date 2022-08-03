@@ -34,6 +34,9 @@
         border-color: #040404;
        
     }
+    #perfil:hover{
+        transform: rotate(360deg);
+    }
     #divisor1 {
         background-color: #04ac04;
 
@@ -53,6 +56,12 @@
         background-color: #FFFFFF;
         cursor: progress;
     }
+    #divisor3, #divisor4 {
+        background-color: #04ac04;
+        font-size: 90px;
+        text-align: center;
+
+    }
     p{
         font-family: perfect dos vga;
         color:#040404;
@@ -62,6 +71,10 @@
         background-color:#FFFFFF;
         cursor: pointer;
         
+    }
+    hr {
+        color: #04ac04;
+       
     }
 
     /*-----------------------------------------------
@@ -173,3 +186,45 @@ class and ui-labels class */
       .contenedor-arbol ul > li:last-child::after {
           height: 8px;
       }
+
+ /*--------*/     
+.container4 {
+  display: block;
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid #04ac04 ;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Using only CSS*/
+
+.maquina-escribir {
+    background: #04ac04;
+    position: relative;
+  }
+  
+  .maquina-escribir::after {
+    content: "";
+    border-left: 3px solid #04ac04;
+    background:#04ac04;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    animation: maquinaescribir 2s infinite alternate steps(14);
+  }
+  
+  @keyframes maquinaescribir {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0;
+    }
+  }
+  
+  
+  
