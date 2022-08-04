@@ -28,17 +28,41 @@ nav {
     border-radius: 25px;
 }
 
+#titulo{
+    color: #04ac04;
+    font-family: perfect dos vga;
+    text-decoration: none;
+}
+#titulo:hover{
+ color: #FFFFFF;
+background: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 
+0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 
+0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
 /*texto PORTFOLIO*/
 #portfolio {
-    font-family: perfect dos vga;
-    color: #04ac04;
     font-size: 34px;
+    font-family: perfect dos vga;
+color: #FFFFFF;
+background: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 
+0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18,
+ 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
 }
 /*nombre principal*/
 #nombre {
     font-family: perfect dos vga;
     color: #04ac04;
     margin-top: -115px;
+}
+#nombre:hover{
+    color: #FFFFFF;
+background: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 
+0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 
+0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
 }
 /*texto ANALISTA PROGRAMADOR UNIVERSITARIO, FULL STACK DEVELOPER JR*/
 h3 {
