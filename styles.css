@@ -301,11 +301,26 @@ h1 {
 }
 
 
-/*----------------------------*/
+/*--estilo porcentaje de idiomas-----*/
 
 #eng {
     color: #04ac04;
     
     font-family: perfect dos vga;
     font-size: 35px;
+}
+/*estilo de arte ASCII*/
+pre{
+    color:#dd9d20;
+    font-size: 20px;
+}
+#monitor{
+    border-style: solid;
+    border-color: #dd9d20;
+}
+#monitor2{
+    color: #dd9d20;
+}
+.icon{
+    color: #dd9d20;
 }
