@@ -18,8 +18,17 @@ body {
 nav {
     background-color: #040404;
 }
-/*texto PORTFOLIO*/
+/*estilo iconos redes sociales*/
+#social {
+    float: right;
+}
+.redes {
+    border-style: solid;
+    border-color: #040404;
+    border-radius: 25px;
+}
 
+/*texto PORTFOLIO*/
 #portfolio {
     font-family: perfect dos vga;
     color: #04ac04;
