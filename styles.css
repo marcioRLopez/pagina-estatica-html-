@@ -106,11 +106,14 @@ img {
 #encabezado,
 #encabezado5{
     background-color:  #051681;
+    border-style: solid;
+    border-color: #FFFFFF;
 }
 #encabezado2{
     color: #FFFFFF;
 }
-#encabezado3{
+#encabezado3,
+#encabezado6 {
     background-color: #bebdb8;
 }
 .capital{
@@ -128,6 +131,9 @@ img {
 }
 .azul{
     color: #051681;
+}
+.gris{
+  color: #bebdb8;
 }
 /*divisores de porcentaje circular*/
 #divisor3,
