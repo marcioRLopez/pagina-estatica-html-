@@ -7,80 +7,182 @@
     src: url(fuentes/perfect\ dos\ vga\ 437.ttf);
 
 }
+
 /*cuerpo*/
 
 body {
     background-color: #040404;
 
 }
+
 /*barra de navegacion*/
 
 nav {
     background-color: #040404;
 }
+
 /*estilo iconos redes sociales*/
 #social {
     float: right;
 }
+
 .redes {
     border-style: solid;
     border-color: #040404;
     border-radius: 25px;
 }
 
-#titulo{
+#titulo {
     color: #04ac04;
     font-family: perfect dos vga;
     text-decoration: none;
 }
-#titulo:hover{
- color: #FFFFFF;
-background: #232323;
-text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 
-0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 
-0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+
+#titulo:hover {
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF,
+        0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18,
+        0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
 }
 
 /*texto PORTFOLIO*/
 #portfolio {
     font-size: 34px;
     font-family: perfect dos vga;
-color: #FFFFFF;
-background: #232323;
-text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 
-0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18,
- 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF,
+        0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18,
+        0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
 }
+/*hover logos estatales*/
+
+#argentina:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #FFFFFF;
+    -webkit-box-shadow: 0px 0px 15px 15px #FFFFFF;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+#inti:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #FFFFFF;
+    -webkit-box-shadow: 0px 0px 15px 15px #FFFFFF;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+#ministerio:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #FFFFFF;
+    -webkit-box-shadow: 0px 0px 15px 15px #FFFFFF;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+/*imagenes de los enlaces de redes sociales*/
+#logueate,
+#enlace1,
+#enlace2,
+#enlace3,
+#enlace4,
+#enlace5,
+#enlace6,
+#enlace7 {
+    overflow: hidden;
+}
+
+/*hover de las imagenes de los enlaces de redes sociales*/
+#logueate:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#enlace1:hover {
+    transform: scale(1.6);
+    filter: brightness(1.2);
+}
+
+#enlace2:hover {
+    transform: scale(1.6);
+    filter: brightness(1.2);
+}
+
+#enlace3:hover {
+    transform: scale(1.6);
+    filter: brightness(1.2);
+}
+
+#enlace4:hover {
+    transform: scale(1.6);
+    filter: brightness(1.2);
+}
+
+#enlace5:hover {
+    transform: scale(1.6);
+    filter: brightness(1.2);
+}
+
+#enlace6:hover {
+    transform: scale(1.6);
+    filter: brightness(1.2);
+}
+
+#enlace7:hover {
+    transform: scale(1.6);
+    filter: brightness(1.2);
+}
+
 /*nombre principal*/
 #nombre {
     font-family: perfect dos vga;
     color: #04ac04;
     margin-top: -115px;
 }
-#nombre:hover{
+
+#nombre:hover {
     color: #FFFFFF;
-background:#040404;
-text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 
-0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 
-0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    background: #040404;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF,
+        0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18,
+        0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
 }
+
 /*texto ANALISTA PROGRAMADOR UNIVERSITARIO, FULL STACK DEVELOPER JR*/
 h3 {
     font-family: perfect dos vga;
     color: #04ac04;
 }
+
 /*banner*/
 img {
     background-size: 100%;
     position: relative;
 
 }
+
+/*hover banner*/
+#login1:hover {
+    filter: invert();
+}
+
 /*foto de perfil*/
 #perfil {
 
-   top: -105px;
+    top: -105px;
 
 }
+
+/* hover foto perfil*/
+#perfil:hover {
+    filter: sepia(60%);
+}
+
 /*divisor similar a menu vintage*/
 #divisor1 {
     background-color: #04ac04;
@@ -97,44 +199,55 @@ img {
     padding-left: 30px;
 
 }
+
 /*hover del anterior divisor*/
 #divisor2:hover {
     background-color: #FFFFFF;
     cursor: progress;
 }
+
 /*encabezado del div similar a free pascal*/
 #encabezado,
-#encabezado5{
-    background-color:  #051681;
+#encabezado5 {
+    background-color: #051681;
     border-style: solid;
     border-color: #FFFFFF;
 }
-#encabezado2{
+
+#encabezado2 {
     color: #FFFFFF;
 }
+
 #encabezado3,
 #encabezado6 {
     background-color: #bebdb8;
 }
-.capital{
-    color:  #974847;
+
+.capital {
+    color: #974847;
 }
-.capital2{
-    color:  #362d22;
+
+.capital2 {
+    color: #362d22;
 }
-.white{
+
+.white {
     color: #FFFFFF;
 }
-.yellow{
-    color:  #bfbf47;
+
+.yellow {
+    color: #bfbf47;
 
 }
-.azul{
+
+.azul {
     color: #051681;
 }
-.gris{
-  color: #bebdb8;
+
+.gris {
+    color: #bebdb8;
 }
+
 /*divisores de porcentaje circular*/
 #divisor3,
 #divisor4,
@@ -145,11 +258,12 @@ img {
     margin-bottom: 60px;
 
 }
+
 /*hover de divisor 3, 4*/
 .escritura:hover {
     background-color: #040404;
     color: #FFFFFF;
-    }
+}
 
 /*parrafo de los divisores*/
 p {
@@ -157,12 +271,14 @@ p {
     color: #040404;
     font-size: 20px;
 }
+
 /*hover del parrafo divisor*/
 P:hover {
     background-color: #FFFFFF;
     cursor: pointer;
 
 }
+
 /*linea de separacion*/
 hr {
     color: #04ac04;
@@ -170,7 +286,7 @@ hr {
 }
 
 /*--estiloc del arbol de carpetas--*/
- 
+
 h1 {
     text-align: center;
 }
@@ -322,6 +438,7 @@ h1 {
     width: 400px;
     padding: 3px;
 }
+
 #progress2 {
     background: #333;
     border-radius: 13px;
@@ -333,23 +450,25 @@ h1 {
 #progress:after {
     content: '';
     display: block;
-    background:#04ac04;
+    background: #04ac04;
     width: 56%;
     height: 100%;
     border-radius: 9px;
 }
+
 #progress1:after {
     content: '';
     display: block;
-    background:#04ac04;
+    background: #04ac04;
     width: 70%;
     height: 100%;
     border-radius: 9px;
 }
+
 #progress2:after {
     content: '';
     display: block;
-    background:#04ac04;
+    background: #04ac04;
     width: 80%;
     height: 100%;
     border-radius: 9px;
@@ -360,83 +479,81 @@ h1 {
 
 #eng {
     color: #04ac04;
-    
+
     font-family: perfect dos vga;
     font-size: 35px;
 }
+
 /*estilo de arte ASCII*/
-pre{
-    color:#dd9d20;
+pre {
+    color: #dd9d20;
     font-size: 20px;
 }
-#monitor{
+
+#monitor {
     border-style: solid;
     border-color: #dd9d20;
     margin-bottom: 50px;
 }
-#monitor2{
+
+#monitor2 {
     color: #dd9d20;
 }
-.icon{
+
+.icon {
     color: #dd9d20;
 }
+
 /*estilo de imagenes de diplomas*/
 
-.hoverbox
-{
-	cursor: default;
-	list-style: none;
+.hoverbox {
+    cursor: default;
+    list-style: none;
 }
 
-.hoverbox a
-{
-	cursor: default;
+.hoverbox a {
+    cursor: default;
 }
 
-.hoverbox a .preview
-{
-	display: none;
+.hoverbox a .preview {
+    display: none;
 }
 
-.hoverbox a:hover .preview
-{
-	display: block;
-	position: absolute;
-	top: -33px;
-	left: -45px;
-	z-index: 1;
+.hoverbox a:hover .preview {
+    display: block;
+    position: absolute;
+    top: -33px;
+    left: -45px;
+    z-index: 1;
 }
 
-.hoverbox img
-{
-	background: #fff;
-	border-color: #aaa #ccc #ddd #bbb;
-	border-style: solid;
-	border-width: 1px;
-	color: inherit;
-	padding: 2px;
-	vertical-align: top;
-	width: 100px;
-	height: 75px;
+.hoverbox img {
+    background: #fff;
+    border-color: #aaa #ccc #ddd #bbb;
+    border-style: solid;
+    border-width: 1px;
+    color: inherit;
+    padding: 2px;
+    vertical-align: top;
+    width: 100px;
+    height: 75px;
 }
 
-.hoverbox li
-{
-	background: #eee;
-	border-color: #ddd #bbb #aaa #ccc;
-	border-style: solid;
-	border-width: 1px;
-	color: inherit;
-	display: inline;
-	float: left;
-	margin: 3px;
-	padding: 5px;
-	position: relative;
+.hoverbox li {
+    background: #eee;
+    border-color: #ddd #bbb #aaa #ccc;
+    border-style: solid;
+    border-width: 1px;
+    color: inherit;
+    display: inline;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    position: relative;
 }
 
-.hoverbox .preview
-{
-	border-color:#040404;
-	width: 300px;
-	height: 250px;
+.hoverbox .preview {
+    border-color: #040404;
+    width: 300px;
+    height: 250px;
 }
