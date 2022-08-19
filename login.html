@@ -9,7 +9,7 @@
   <meta name="keywords" content="portfolio, profesional, YOPROGRAMO, MARCIO LOPEZ, INTI ">
   <meta name="author" content="Marcio R. López">
   <meta name="reply-to" content="ciomar2010@gmail.com">
-  <meta name="Resource-type" content="Document">  
+  <meta name="Resource-type" content="Document">
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles2.css">
   <link rel="icon" href="imagenes/enter.png">
@@ -21,7 +21,7 @@
   <section id="sect1" class="sect">
     <video src="imagenes/pexels-mart-production-8888977.mp4" autoplay="true" muted="true" loop="true"
       poster="https://carontestudio.com/img/contacto.jpg"></video>
-      <!--TITULO-->
+    <!--TITULO-->
     <h1>
       <div class="contenedor">
         <img src="imagenes/stranger2.JPG" />
@@ -33,41 +33,56 @@
       <div id="wrapper">
 
         <form name="login-form" class="login-form" action="" method="post">
+          <div id="divgalaxian">
+            <img id="galaxian" src="imagenes/space.png" alt="logo galaxian">
+          </div>
 
           <div class="header">
             <!--TITULO REGISTRATE-->
             <h1>REGISTRATE</h1>
 
           </div>
-<!--INGRESO DE DATOS-->
+          <!--INGRESO DE DATOS-->
           <div class="content">
             <input name="username" type="text" class="input username" placeholder="Username" />
             <div class="user-icon"></div>
             <input name="password" type="password" class="input password" placeholder="Password" />
             <div class="pass-icon"></div>
           </div>
-<!--BOTON LOGUEARSE-->
+          <!--BOTON LOGUEARSE-->
           <div class="footer">
             <input type="submit" name="submit" value="Login" class="button" />
             <!-- BOTON DE MODAL -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn-primary" id="registro"  data-bs-toggle="modal" data-bs-target="#exampleModal">
               REGISTRO
             </button>
-            
+
             <!-- MODAL -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div  class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLabel"><img src="imagenes/pacman-video-game.gif" alt="gif de pacman"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    ...
+                    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="#bfbf47" class="bi bi-emoji-sunglasses" viewBox="0 0 16 16">
+                      <path d="M4.968 9.75a.5.5 0 1 0-.866.5A4.498 4.498 0 0 0 8 12.5a4.5 4.5 0 0 0 3.898-2.25.5.5 0 1 0-.866-.5A3.498 3.498 0 0 1 8 11.5a3.498 3.498 0 0 1-3.032-1.75zM7 5.116V5a1 1 0 0 0-1-1H3.28a1 1 0 0 0-.97 1.243l.311 1.242A2 2 0 0 0 4.561 8H5a2 2 0 0 0 1.994-1.839A2.99 2.99 0 0 1 8 6c.393 0 .74.064 1.006.161A2 2 0 0 0 11 8h.438a2 2 0 0 0 1.94-1.515l.311-1.242A1 1 0 0 0 12.72 4H10a1 1 0 0 0-1 1v.116A4.22 4.22 0 0 0 8 5c-.35 0-.69.04-1 .116z"/>
+                      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-1 0A7 7 0 1 0 1 8a7 7 0 0 0 14 0z"/>
+                    </svg>
+                    <input type="text" name="user" required placeholder="ingresa tu nombre"><label for="user"> USUARIO  </label>
+                    <br>
+                    <br>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="#bfbf47" class="bi bi-key-fill" viewBox="0 0 16 16">
+                      <path d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                    </svg>
+                    <input type="password" name="password" id="password" required placeholder="ingresa tu password
+                    "><label for="password"> PASSWORD</label>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
-                    <button type="button" class="btn btn-primary">GUARDAR CAMBIOS</button>
+                    <button id="close" type="button" class="btn btn-secondary" data-bs-dismiss="modal">CLOSE</button>
+                    <button id="save" type="button" class="btn btn-primary">SAVE</button>
                   </div>
                 </div>
               </div>
@@ -80,13 +95,17 @@
       </div>
       <div class="gradient"></div>
     </div>
-<!--ETIQUETA DE AUDIO-->
+    <!--ETIQUETA DE AUDIO-->
     <audio src="sonidos/stranger.mp3" autoplay loop></audio>
+
+    <br>
+    <br>
+    <br>
 
   </section>
   <!--SCRIPT DE JAVASCRIPT-BOOTSTRAP-->
 
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

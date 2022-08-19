@@ -114,6 +114,18 @@ img {
 	padding: 0 30px 25px 30px;
 }
 
+/*imagen de login*/
+#galaxian {
+	height: 90px;
+	width: 90px;
+	border-style: solid;
+	border-radius: 50px;
+}
+#divgalaxian {
+	text-align: center;
+	padding-top: 20px;
+}
+
 /* primer campo de ingreso */
 .login-form .content .input {
 	width: 188px;
@@ -176,7 +188,25 @@ img {
 	left: -46px;
 }
 
-
+/*modal*/
+label {
+	font-family: perfect dos vga;
+	color:#bfbf47;
+	margin-left: 10px;
+}
+.modal-header,
+.modal-body,
+.modal-footer{
+	background-color: #051681;
+	box-shadow: 5px 5px 15px 5px #F0F0F0;
+}
+button.btn-close {
+	background-color: #FFFFFF;
+}
+.modal-header{
+	padding-bottom: -27px;
+	margin-bottom: 20px;
+}
 
 /*pie de pagina*/
 
@@ -188,7 +218,25 @@ img {
 }
 
 /* boton de login*/
-.login-form .footer .button {
+.login-form .footer .button
+ {
+	float: right;
+	padding: 11px 25px;
+	font-family: perfect dos vga;
+	font-weight: 300;
+	font-size: 18px;
+	color: #fff;
+	background: #051681;
+	cursor: pointer;
+	text-shadow: 0 0 10px #FFFFFF, 2px 2px 2px rgba(206,89,55,0);
+	border-style: solid;
+	border-radius: 10px;
+	
+	
+
+}
+/*boton de registro*/
+#registro {
 	float: right;
 	padding: 11px 25px;
 	font-family: perfect dos vga;
@@ -201,11 +249,15 @@ img {
 
 }
 
-/*hover de boton login*/
+/*hover de boton login y registro*/
 .login-form .footer .button:hover {
 	background: #FFFF;
 	color: #051681;
 
+}
+#registro:hover{
+	background: #FFFF;
+	color: #051681;
 }
 
 /*foco del boton login*/
@@ -240,6 +292,17 @@ img {
 .login-form .footer .register:focus {
 	position: relative;
 	bottom: -1px;
+}
+#close,
+#save {
+	background-color: #FFFFFF;
+	font-family: perfect dos vga;
+	color: #051681;
+}
+#close,
+#save:hover {
+	background-color: #051681;
+	color: #bfbf47;
 }
 
 
